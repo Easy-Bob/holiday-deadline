@@ -1,0 +1,24 @@
+{
+  "description": "Swiss Labour Day is only an Observance: it counts as a business day.",
+  "question": {
+    "country": "CH",
+    "region": "",
+    "start": "2024-04-30",
+    "business_days": 1
+  },
+  "fetch": [
+    [
+      "CH",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-05-01",
+    "skipped_holidays": []
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

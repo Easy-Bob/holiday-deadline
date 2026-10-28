@@ -1,0 +1,26 @@
+{
+  "description": "St Andrew's Day falls on a Saturday; Nager lists the substitute Monday, in Scotland only.",
+  "question": {
+    "country": "GB",
+    "region": "GB-SCT",
+    "start": "2024-11-27",
+    "business_days": 3
+  },
+  "fetch": [
+    [
+      "GB",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-12-03",
+    "skipped_holidays": [
+      "2024-12-02"
+    ]
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

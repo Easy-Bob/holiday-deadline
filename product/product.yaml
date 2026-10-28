@@ -1,0 +1,11 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "Business-day deadlines that respect every public holiday"
+summary: "Give a start date, a country and region, and a number of business days. An agent looks up the public holidays from the Nager.Date database, works out which ones apply there, and finds the deadline; a verifier recomputes it from the same holiday lists."
+highlights:
+  - "Live public holiday data for eight countries and their regions"
+  - "Regional, bank-only and weekend holidays all handled by clear rules"
+  - "Every answer is checked against the holiday lists the agent read"
+steps:
+  - "Ask for a deadline, e.g. 5 business days after 2025-01-02 in Bavaria (DE-BY)"
+  - "The agent fetches the holidays and counts the business days"
+  - "It submits the deadline, and the verdict card shows whether it is right and why"

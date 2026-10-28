@@ -1,0 +1,26 @@
+{
+  "description": "Skips Epiphany in Berlin, where it is not a holiday.",
+  "question": {
+    "country": "DE",
+    "region": "DE-BE",
+    "start": "2025-01-02",
+    "business_days": 5
+  },
+  "fetch": [
+    [
+      "DE",
+      2025
+    ]
+  ],
+  "submit": {
+    "deadline": "2025-01-10",
+    "skipped_holidays": [
+      "2025-01-06"
+    ]
+  },
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "deadline-correct"
+  }
+}

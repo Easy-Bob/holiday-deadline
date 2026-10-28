@@ -1,0 +1,26 @@
+{
+  "description": "The same dates in California, where Indigenous Peoples' Day is a public holiday.",
+  "question": {
+    "country": "US",
+    "region": "US-CA",
+    "start": "2024-10-10",
+    "business_days": 3
+  },
+  "fetch": [
+    [
+      "US",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-10-16",
+    "skipped_holidays": [
+      "2024-10-14"
+    ]
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

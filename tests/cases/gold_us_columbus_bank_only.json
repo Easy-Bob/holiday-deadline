@@ -1,0 +1,24 @@
+{
+  "description": "Columbus Day is a Bank holiday only, not Public: it counts as a business day.",
+  "question": {
+    "country": "US",
+    "region": "",
+    "start": "2024-10-10",
+    "business_days": 3
+  },
+  "fetch": [
+    [
+      "US",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-10-15",
+    "skipped_holidays": []
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

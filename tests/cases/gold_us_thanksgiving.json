@@ -1,0 +1,26 @@
+{
+  "description": "Thanksgiving inside the range.",
+  "question": {
+    "country": "US",
+    "region": "",
+    "start": "2024-11-20",
+    "business_days": 10
+  },
+  "fetch": [
+    [
+      "US",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-12-05",
+    "skipped_holidays": [
+      "2024-11-28"
+    ]
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

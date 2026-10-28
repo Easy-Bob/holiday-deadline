@@ -1,0 +1,26 @@
+{
+  "description": "Waitangi Day is the next day.",
+  "question": {
+    "country": "NZ",
+    "region": "",
+    "start": "2024-02-05",
+    "business_days": 1
+  },
+  "fetch": [
+    [
+      "NZ",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-02-07",
+    "skipped_holidays": [
+      "2024-02-06"
+    ]
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

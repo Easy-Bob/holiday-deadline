@@ -1,0 +1,31 @@
+{
+  "description": "The longest count, through Christmas into the next year.",
+  "question": {
+    "country": "CA",
+    "region": "",
+    "start": "2024-12-02",
+    "business_days": 30
+  },
+  "fetch": [
+    [
+      "CA",
+      2024
+    ],
+    [
+      "CA",
+      2025
+    ]
+  ],
+  "submit": {
+    "deadline": "2025-01-15",
+    "skipped_holidays": [
+      "2024-12-25",
+      "2025-01-01"
+    ]
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

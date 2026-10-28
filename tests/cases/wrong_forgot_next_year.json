@@ -1,0 +1,31 @@
+{
+  "description": "Never looks at the next year's holidays.",
+  "question": {
+    "country": "AU",
+    "region": "AU-NSW",
+    "start": "2024-12-20",
+    "business_days": 12
+  },
+  "fetch": [
+    [
+      "AU",
+      2024
+    ],
+    [
+      "AU",
+      2025
+    ]
+  ],
+  "submit": {
+    "deadline": "2025-01-09",
+    "skipped_holidays": [
+      "2024-12-25",
+      "2024-12-26"
+    ]
+  },
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "deadline-correct"
+  }
+}

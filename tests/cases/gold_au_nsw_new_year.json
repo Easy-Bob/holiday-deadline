@@ -1,0 +1,32 @@
+{
+  "description": "Christmas, Boxing Day and New Year: the count runs into the next year's list.",
+  "question": {
+    "country": "AU",
+    "region": "AU-NSW",
+    "start": "2024-12-20",
+    "business_days": 12
+  },
+  "fetch": [
+    [
+      "AU",
+      2024
+    ],
+    [
+      "AU",
+      2025
+    ]
+  ],
+  "submit": {
+    "deadline": "2025-01-10",
+    "skipped_holidays": [
+      "2024-12-25",
+      "2024-12-26",
+      "2025-01-01"
+    ]
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

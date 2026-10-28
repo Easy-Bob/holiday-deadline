@@ -1,0 +1,26 @@
+{
+  "description": "Epiphany is a public holiday in Bavaria.",
+  "question": {
+    "country": "DE",
+    "region": "DE-BY",
+    "start": "2025-01-02",
+    "business_days": 5
+  },
+  "fetch": [
+    [
+      "DE",
+      2025
+    ]
+  ],
+  "submit": {
+    "deadline": "2025-01-10",
+    "skipped_holidays": [
+      "2025-01-06"
+    ]
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "A skipped holiday outside the range.",
+  "question": {
+    "country": "CH",
+    "region": "",
+    "start": "2024-07-31",
+    "business_days": 1
+  },
+  "fetch": [
+    [
+      "CH",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-08-02",
+    "skipped_holidays": [
+      "2024-12-25"
+    ]
+  },
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "submitted-shape"
+  }
+}

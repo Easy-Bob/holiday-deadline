@@ -1,0 +1,24 @@
+{
+  "description": "Bastille Day falls on a Sunday: no extra day is skipped.",
+  "question": {
+    "country": "FR",
+    "region": "",
+    "start": "2024-07-12",
+    "business_days": 1
+  },
+  "fetch": [
+    [
+      "FR",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-07-15",
+    "skipped_holidays": []
+  },
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

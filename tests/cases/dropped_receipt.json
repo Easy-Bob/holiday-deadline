@@ -1,0 +1,33 @@
+{
+  "description": "The first receipt removed.",
+  "question": {
+    "country": "AU",
+    "region": "AU-NSW",
+    "start": "2024-12-20",
+    "business_days": 12
+  },
+  "fetch": [
+    [
+      "AU",
+      2024
+    ],
+    [
+      "AU",
+      2025
+    ]
+  ],
+  "submit": {
+    "deadline": "2025-01-10",
+    "skipped_holidays": [
+      "2024-12-25",
+      "2024-12-26",
+      "2025-01-01"
+    ]
+  },
+  "tamper": "drop-receipt",
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "receipts-integrity"
+  }
+}

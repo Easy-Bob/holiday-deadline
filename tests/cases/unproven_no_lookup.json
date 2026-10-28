@@ -1,0 +1,21 @@
+{
+  "description": "The right answer without fetching any holidays.",
+  "question": {
+    "country": "US",
+    "region": "",
+    "start": "2024-11-20",
+    "business_days": 10
+  },
+  "fetch": [],
+  "submit": {
+    "deadline": "2024-12-05",
+    "skipped_holidays": [
+      "2024-11-28"
+    ]
+  },
+  "expect": {
+    "valid": false,
+    "score": 0.5,
+    "check": "proven"
+  }
+}

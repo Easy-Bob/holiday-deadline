@@ -1,0 +1,26 @@
+{
+  "description": "Skips Columbus Day, which is a Bank holiday only.",
+  "question": {
+    "country": "US",
+    "region": "",
+    "start": "2024-10-10",
+    "business_days": 3
+  },
+  "fetch": [
+    [
+      "US",
+      2024
+    ]
+  ],
+  "submit": {
+    "deadline": "2024-10-16",
+    "skipped_holidays": [
+      "2024-10-14"
+    ]
+  },
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "deadline-correct"
+  }
+}
